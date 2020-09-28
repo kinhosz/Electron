@@ -1,0 +1,28 @@
+{
+  "name": "appelectron",
+  "version": "1.0.0",
+  "description": "Uma versão inicial de desenvolvimento e familiarização do electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/kinhosz.git"
+  },
+  "keywords": [
+    "electron",
+    "javascrpit",
+    "desktop",
+    "application"
+  ],
+  "author": "José Carlos da Silva Cruz (@kinhosz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/kinhosz/issues"
+  },
+  "homepage": "https://github.com/github.com/kinhosz#readme",
+  "devDependencies": {
+    "electron": "^10.1.2"
+  }
+}
