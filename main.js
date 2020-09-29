@@ -15,4 +15,8 @@ function createWindow() {
     win.loadFile('index.html')
 }
 
+function Login() {
+    alert("the form was sent")
+}
+
 app.whenReady().then(createWindow)
