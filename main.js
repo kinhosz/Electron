@@ -16,7 +16,13 @@ function createWindow() {
 }
 
 function Login() {
-    alert("the form was sent")
+    var x = document.forms["login"]["user"].value
+    if (x == "") {
+        alert("hmm... deu errado")
+    }
+    else {
+        alert(x)
+    }
 }
 
 app.whenReady().then(createWindow)
