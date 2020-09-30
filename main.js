@@ -16,12 +16,14 @@ function createWindow() {
 }
 
 function Login() {
-    var x = document.forms["login"]["user"].value
+    var x = document.forms["login"]["user"].value;
+    var y = document.forms["login"]["pwd"].value;
+    var z = "your user is " + x + "\n" + "your password is " + y;
     if (x == "") {
         alert("hmm... deu errado")
     }
     else {
-        alert(x)
+        alert(z)
     }
 }
 
