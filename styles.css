@@ -1,3 +1,15 @@
 body{
-    background-color: red;
+    background-color: rgb(240, 65, 12);
+}
+div{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    background-color: rgb(233, 129, 97);
+    border:solid  rgb(233,128,97);
+}
+h1{
+    text-align: center;
+    color: royalblue;
 }
